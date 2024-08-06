@@ -21,9 +21,16 @@ class _SplashWidgetState extends State<SplashWidget> {
             color: primaryColor,
           ),
           Center(
-            child: Text(
-              "CarHub",
-              style: labelH1White,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.asset('assets/images/logo-app.png'),
+                const SizedBox(height: 20),
+                Text(
+                  "CarHub",
+                  style: labelH1White,
+                ),
+              ],
             ),
           ),
         ],
