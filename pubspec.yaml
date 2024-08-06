@@ -7,8 +7,11 @@ environment:
   sdk: '>=3.4.4 <4.0.0'
 
 dependencies:
+  eva_icons_flutter: ^3.1.0
   flutter:
     sdk: flutter
+  page_view_indicators: ^2.0.0
+  percent_indicator: ^4.2.3
 
 dev_dependencies:
   flutter_test:
