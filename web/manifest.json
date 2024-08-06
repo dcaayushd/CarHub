@@ -8,7 +8,11 @@
     "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
-    "icons": [
+    "icons": [{
+            "src": "/favicon.ico",
+            "type": "image/x-icon",
+            "sizes": "16x16 32x32"
+        },
         {
             "src": "icons/Icon-192.png",
             "sizes": "192x192",

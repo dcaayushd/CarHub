@@ -12,16 +12,6 @@ const grey = Colors.grey;
 final lightGrey = Colors.grey[400];
 final darkGrey = Colors.grey[600];
 
-// final primaryGradientColor = (BuildContext context) => [
-//       Theme.of(context).primaryColor,
-//       Theme.of(context).primaryColor,
-//       Theme.of(context).primaryColorDark,
-//       Theme.of(context).primaryColorDark,
-//     ];
-
-// final greyGradientColor =
-//     (BuildContext context) => [Colors.grey.shade100, Colors.grey.shade100];
-
 List<Color> primaryGradientColor(BuildContext context) {
   return [
     Theme.of(context).primaryColor,
